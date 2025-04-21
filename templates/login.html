@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='main.css') }}"
+    />
+  </head>
+  <body>
+    <form action="" method="POST">
+      <div class="split right">
+        <div class="login-box">
+          <h1>Login</h1>
+          <p>Welcome back ,Login to get insights</p>
+          <div class="textbox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="16k-3886" name="" value="" />
+          </div>
+
+          <div class="textbox">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" name="" value="" />
+          </div>
+
+          <div class="image">
+            <a href="/home" style="margin: 15px;"
+              ><img src="static/login button.png" height="40px" width="180px"
+            /></a>
+          </div>
+          <a href="/temp"> Forget Password ? </a>
+        </div>
+      </div>
+
+      <div class="split left">
+        <div class="centered">
+          <img src="static/logo.png" height="120px" />
+          <h2>Exam Surveillance - Master SIM, IFI<h2>
+        </div>
+        <p>
+          The Master in Intelligent Systems and Multimedia (SIM) program at the Institut Francophone International (IFI) trains experts in artificial intelligence, computer vision, and image processing.
+
+            This exam surveillance application leverages advanced technologies to detect and prevent cheating, ensuring the integrity of academic assessments.
+
+              Institut Francophone International - Vietnam National University, Hanoi
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

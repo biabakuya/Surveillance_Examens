@@ -1,0 +1,36 @@
+# Environnement virtuel
+venv/
+.env
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de logs
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Modèles
+*.weights
+*.pt
+
+# Données temporaires
+*.pkl
+*.npy
+
+# Fichiers Jupyter
+.ipynb_checkpoints
+
+# Dossiers spécifiques
+venv/
+*.dll
+*.lib
+*.pyd
+*.h5
+__pycache__/
+*.pyc
+
